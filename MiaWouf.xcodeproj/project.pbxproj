@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7280BFEE2346129F00683113 /* DogSuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280BFED2346129F00683113 /* DogSuccesViewController.swift */; };
 		72B9E6392345DA3300D1B785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E6382345DA3300D1B785 /* AppDelegate.swift */; };
 		72B9E63B2345DA3300D1B785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E63A2345DA3300D1B785 /* SceneDelegate.swift */; };
-		72B9E63D2345DA3300D1B785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E63C2345DA3300D1B785 /* ViewController.swift */; };
-		72B9E6402345DA3300D1B785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B9E63E2345DA3300D1B785 /* Main.storyboard */; };
 		72B9E6422345DA3400D1B785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B9E6412345DA3400D1B785 /* Assets.xcassets */; };
 		72B9E6452345DA3400D1B785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B9E6432345DA3400D1B785 /* LaunchScreen.storyboard */; };
+		72B9E64F2345DAC400D1B785 /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E64E2345DAC400D1B785 /* Races.swift */; };
+		72B9E6552345E76E00D1B785 /* DogWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E6542345E76E00D1B785 /* DogWelcomeViewController.swift */; };
+		72B9E6572345E99500D1B785 /* DogFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E6562345E99500D1B785 /* DogFormViewController.swift */; };
+		72B9E65D2345FC4C00D1B785 /* CatWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E65C2345FC4C00D1B785 /* CatWelcomeViewController.swift */; };
+		72B9E65F2345FCAD00D1B785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B9E65E2345FCAD00D1B785 /* Main.storyboard */; };
+		72BDDCAB23460494008AEA51 /* CatFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDDCAA23460494008AEA51 /* CatFormViewController.swift */; };
+		72BDDCAD234604AD008AEA51 /* CatSuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDDCAC234604AD008AEA51 /* CatSuccesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7280BFED2346129F00683113 /* DogSuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogSuccesViewController.swift; sourceTree = "<group>"; };
 		72B9E6352345DA3300D1B785 /* MiaWouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiaWouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B9E6382345DA3300D1B785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B9E63A2345DA3300D1B785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72B9E63C2345DA3300D1B785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72B9E63F2345DA3300D1B785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72B9E6412345DA3400D1B785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72B9E6442345DA3400D1B785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B9E6462345DA3400D1B785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B9E64E2345DAC400D1B785 /* Races.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Races.swift; sourceTree = "<group>"; };
+		72B9E6542345E76E00D1B785 /* DogWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWelcomeViewController.swift; sourceTree = "<group>"; };
+		72B9E6562345E99500D1B785 /* DogFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFormViewController.swift; sourceTree = "<group>"; };
+		72B9E65C2345FC4C00D1B785 /* CatWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatWelcomeViewController.swift; sourceTree = "<group>"; };
+		72B9E65E2345FCAD00D1B785 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		72BDDCAA23460494008AEA51 /* CatFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFormViewController.swift; sourceTree = "<group>"; };
+		72BDDCAC234604AD008AEA51 /* CatSuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSuccesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,53 @@
 		72B9E6372345DA3300D1B785 /* MiaWouf */ = {
 			isa = PBXGroup;
 			children = (
-				72B9E6382345DA3300D1B785 /* AppDelegate.swift */,
-				72B9E63A2345DA3300D1B785 /* SceneDelegate.swift */,
-				72B9E63C2345DA3300D1B785 /* ViewController.swift */,
-				72B9E63E2345DA3300D1B785 /* Main.storyboard */,
-				72B9E6412345DA3400D1B785 /* Assets.xcassets */,
-				72B9E6432345DA3400D1B785 /* LaunchScreen.storyboard */,
-				72B9E6462345DA3400D1B785 /* Info.plist */,
+				72B9E6512345DC7800D1B785 /* Model */,
+				72B9E6522345DC8100D1B785 /* Controller */,
+				72B9E6502345DC6E00D1B785 /* View */,
+				72B9E6532345DC9D00D1B785 /* SupportingFiles */,
 			);
 			path = MiaWouf;
+			sourceTree = "<group>";
+		};
+		72B9E6502345DC6E00D1B785 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72B9E65E2345FCAD00D1B785 /* Main.storyboard */,
+				72B9E6432345DA3400D1B785 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72B9E6512345DC7800D1B785 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72B9E64E2345DAC400D1B785 /* Races.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72B9E6522345DC8100D1B785 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				72B9E6542345E76E00D1B785 /* DogWelcomeViewController.swift */,
+				72B9E6562345E99500D1B785 /* DogFormViewController.swift */,
+				7280BFED2346129F00683113 /* DogSuccesViewController.swift */,
+				72B9E65C2345FC4C00D1B785 /* CatWelcomeViewController.swift */,
+				72BDDCAA23460494008AEA51 /* CatFormViewController.swift */,
+				72BDDCAC234604AD008AEA51 /* CatSuccesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		72B9E6532345DC9D00D1B785 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				72B9E63A2345DA3300D1B785 /* SceneDelegate.swift */,
+				72B9E6412345DA3400D1B785 /* Assets.xcassets */,
+				72B9E6382345DA3300D1B785 /* AppDelegate.swift */,
+				72B9E6462345DA3400D1B785 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +175,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B9E65F2345FCAD00D1B785 /* Main.storyboard in Resources */,
 				72B9E6452345DA3400D1B785 /* LaunchScreen.storyboard in Resources */,
 				72B9E6422345DA3400D1B785 /* Assets.xcassets in Resources */,
-				72B9E6402345DA3300D1B785 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B9E63D2345DA3300D1B785 /* ViewController.swift in Sources */,
+				72B9E64F2345DAC400D1B785 /* Races.swift in Sources */,
+				72BDDCAB23460494008AEA51 /* CatFormViewController.swift in Sources */,
+				72BDDCAD234604AD008AEA51 /* CatSuccesViewController.swift in Sources */,
+				72B9E6552345E76E00D1B785 /* DogWelcomeViewController.swift in Sources */,
 				72B9E6392345DA3300D1B785 /* AppDelegate.swift in Sources */,
+				72B9E6572345E99500D1B785 /* DogFormViewController.swift in Sources */,
+				72B9E65D2345FC4C00D1B785 /* CatWelcomeViewController.swift in Sources */,
+				7280BFEE2346129F00683113 /* DogSuccesViewController.swift in Sources */,
 				72B9E63B2345DA3300D1B785 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +203,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		72B9E63E2345DA3300D1B785 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72B9E63F2345DA3300D1B785 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		72B9E6432345DA3400D1B785 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BGGLL93M78;
-				INFOPLIST_FILE = MiaWouf/Info.plist;
+				INFOPLIST_FILE = MiaWouf/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BGGLL93M78;
-				INFOPLIST_FILE = MiaWouf/Info.plist;
+				INFOPLIST_FILE = MiaWouf/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
