@@ -9,7 +9,8 @@
 import UIKit
 
 class DogFormViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
-    
+    var dog: Pet!
+
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var phoneTextField: UITextField!
     @IBOutlet weak var racePickerView: UIPickerView!
@@ -34,6 +35,7 @@ class DogFormViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     }
     @IBAction func validate() {
         createPetObject()
+        performSegue(withIdentifier: "segueToSuccess", sender: self)
     }
     private func createPetObject() {
         let name = nameTextField.text
@@ -43,7 +45,14 @@ class DogFormViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         let gender : Pet.Gender = (genderIndex == 0) ? .female : .male
         let raceIndex = racePickerView.selectedRow(inComponent: 0)
         let race = dogRaces[raceIndex]
-        let dog = Pet(name: name, hasMajority: hasMajority, phone: phone, gender: gender, race: race)
+        dog = Pet(name: name, hasMajority: hasMajority, phone: phone, gender: gender, race: race)
+        
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueToSuccess" {
+            let successVC = segue.destination as! DogSuccesViewController
+            successVC.dog = dog
+        }
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
