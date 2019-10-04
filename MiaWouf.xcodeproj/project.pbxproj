@@ -16,9 +16,9 @@
 		72B9E6552345E76E00D1B785 /* DogWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E6542345E76E00D1B785 /* DogWelcomeViewController.swift */; };
 		72B9E6572345E99500D1B785 /* DogFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E6562345E99500D1B785 /* DogFormViewController.swift */; };
 		72B9E65D2345FC4C00D1B785 /* CatWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E65C2345FC4C00D1B785 /* CatWelcomeViewController.swift */; };
-		72B9E65F2345FCAD00D1B785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B9E65E2345FCAD00D1B785 /* Main.storyboard */; };
 		72BDDCAB23460494008AEA51 /* CatFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDDCAA23460494008AEA51 /* CatFormViewController.swift */; };
 		72BDDCAD234604AD008AEA51 /* CatSuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BDDCAC234604AD008AEA51 /* CatSuccesViewController.swift */; };
+		72DAC0AA2346233B002D1F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DAC0A92346233B002D1F6F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +33,9 @@
 		72B9E6542345E76E00D1B785 /* DogWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWelcomeViewController.swift; sourceTree = "<group>"; };
 		72B9E6562345E99500D1B785 /* DogFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFormViewController.swift; sourceTree = "<group>"; };
 		72B9E65C2345FC4C00D1B785 /* CatWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatWelcomeViewController.swift; sourceTree = "<group>"; };
-		72B9E65E2345FCAD00D1B785 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		72BDDCAA23460494008AEA51 /* CatFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFormViewController.swift; sourceTree = "<group>"; };
 		72BDDCAC234604AD008AEA51 /* CatSuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatSuccesViewController.swift; sourceTree = "<group>"; };
+		72DAC0A92346233B002D1F6F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 		72B9E6502345DC6E00D1B785 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				72B9E65E2345FCAD00D1B785 /* Main.storyboard */,
 				72B9E6432345DA3400D1B785 /* LaunchScreen.storyboard */,
+				72DAC0A92346233B002D1F6F /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B9E65F2345FCAD00D1B785 /* Main.storyboard in Resources */,
 				72B9E6452345DA3400D1B785 /* LaunchScreen.storyboard in Resources */,
 				72B9E6422345DA3400D1B785 /* Assets.xcassets in Resources */,
+				72DAC0AA2346233B002D1F6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
