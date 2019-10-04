@@ -72,11 +72,11 @@
             <objects>
                 <viewController id="QS2-o5-F4X" customClass="DogSuccesViewController" customModule="MiaWouf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vne-eN-ab6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FcA-dg-6Op">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <string key="text">Wouf!
 
 Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès que nous vous trouverons une âme soeur !</string>
@@ -85,7 +85,7 @@ Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès 
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clz-rG-HTt">
-                                <rect key="frame" x="20" y="370" width="280" height="70"/>
+                                <rect key="frame" x="20" y="390" width="280" height="70"/>
                                 <color key="backgroundColor" red="0.66213375330000002" green="0.30792057509999998" blue="0.55978113409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="9Rz-MY-jnH"/>
@@ -152,7 +152,7 @@ Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès 
                                     <color key="titleColor" red="0.114869126" green="0.25177722660000001" blue="0.27791878170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QS2-o5-F4X" kind="presentation" id="zz4-WN-2g8"/>
+                                    <action selector="validate" destination="TH1-zJ-ztQ" eventType="touchUpInside" id="WHy-Is-s4I"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="PDx-Na-xE1" userLabel="AllInterface">
@@ -294,8 +294,11 @@ Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès 
                     </view>
                     <navigationItem key="navigationItem" id="xc0-6P-iau"/>
                     <connections>
+                        <outlet property="genderSegmentControl" destination="UJj-Ua-Ge1" id="qFO-7L-pwl"/>
+                        <outlet property="majoritySwitch" destination="WHw-kp-DQd" id="tnb-J7-qnT"/>
                         <outlet property="nameTextField" destination="3ut-gm-kap" id="nl0-W1-0Ee"/>
                         <outlet property="phoneTextField" destination="zPe-S9-uwS" id="e7K-H4-lL9"/>
+                        <outlet property="racePickerView" destination="PJN-tY-NHO" id="ps0-Cb-XlY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xtb-4D-jfZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -332,7 +335,7 @@ Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès 
                 <navigationController id="1uu-gy-MXg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Cats" image="Cat" id="rmI-U4-xai"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lvo-m6-jBo">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.66213375330000002" green="0.30792057509999998" blue="0.55978113409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -405,7 +408,7 @@ Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès 
                                     <color key="titleColor" red="0.114869126" green="0.25177722660000001" blue="0.27791878170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nix-ia-XOW" kind="presentation" id="M7Q-qz-sKO"/>
+                                    <action selector="validate" destination="CdW-Ym-O5T" eventType="touchUpInside" id="GoA-Pf-jXW"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UrY-we-8cg" userLabel="AllInterface">
@@ -544,8 +547,11 @@ Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès 
                     </view>
                     <navigationItem key="navigationItem" id="CH3-Xm-6cG"/>
                     <connections>
+                        <outlet property="genderSegmentControl" destination="fNK-3t-LjS" id="Eot-v6-eU2"/>
+                        <outlet property="majoritySwitch" destination="Ios-nc-Gnp" id="wg0-HR-7x7"/>
                         <outlet property="nameTextField" destination="VAm-P7-9co" id="fnb-iF-QHE"/>
                         <outlet property="phoneTextField" destination="Wqy-Pz-sll" id="Y23-lP-fTe"/>
+                        <outlet property="racePickerView" destination="qGx-MZ-Zdp" id="tSb-iK-xQM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nJ9-PS-HSQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -562,11 +568,11 @@ Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès 
             <objects>
                 <viewController id="nix-ia-XOW" customClass="CatSuccesViewController" customModule="MiaWouf" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yfd-AI-Lj9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qz9-xd-Uen">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <string key="text">Miaouh!
 
 Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès que nous vous trouverons une âme soeur !</string>
@@ -575,7 +581,7 @@ Nous avons bien enregistré votre inscription ! Nous vous enverrons un SMS dès 
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6P-n2-7Go">
-                                <rect key="frame" x="20" y="370" width="280" height="70"/>
+                                <rect key="frame" x="20" y="390" width="280" height="70"/>
                                 <color key="backgroundColor" red="0.66213375330000002" green="0.30792057509999998" blue="0.55978113409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="6PX-i2-lEC"/>
