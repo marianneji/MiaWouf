@@ -15,7 +15,12 @@ class CatSuccesViewController: UIViewController {
     @IBOutlet weak var WelcomeLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        WelcomeLabel.text? += "\n\(cat.name ?? "Unknow")"
+        setTextWelcomeLabel()
+    }
+    func setTextWelcomeLabel() {
+        if let catName = cat.name {
+            WelcomeLabel.text? += "\n\(catName)"
+        }
     }
     @IBAction func dismiss(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)

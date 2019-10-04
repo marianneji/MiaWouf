@@ -14,8 +14,15 @@ class DogSuccesViewController: UIViewController {
     var dog: Pet!
 
     @IBOutlet weak var welcomeLabel: UILabel!
+
     override func viewDidLoad() {
-        welcomeLabel.text? += "\n\(dog.name ?? "Unknow")"
+        super.viewDidLoad()
+        setDogWelcomeTextLabel()
+    }
+    func setDogWelcomeTextLabel() {
+        if let dogName = dog.name {
+            welcomeLabel.text? += "\n\(dogName)"
+        }
     }
 
     @IBAction func dismiss(_ sender: UIButton) {
