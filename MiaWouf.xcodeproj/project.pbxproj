@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7280BFEE2346129F00683113 /* DogSuccesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280BFED2346129F00683113 /* DogSuccesViewController.swift */; };
+		728CE084234731EE00C8ADEC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CE083234731EE00C8ADEC /* Model.swift */; };
 		72B9E6392345DA3300D1B785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E6382345DA3300D1B785 /* AppDelegate.swift */; };
 		72B9E63B2345DA3300D1B785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B9E63A2345DA3300D1B785 /* SceneDelegate.swift */; };
 		72B9E6422345DA3400D1B785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B9E6412345DA3400D1B785 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		7280BFED2346129F00683113 /* DogSuccesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogSuccesViewController.swift; sourceTree = "<group>"; };
+		728CE083234731EE00C8ADEC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		72B9E6352345DA3300D1B785 /* MiaWouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiaWouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B9E6382345DA3300D1B785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72B9E63A2345DA3300D1B785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				72B9E64E2345DAC400D1B785 /* Races.swift */,
+				728CE083234731EE00C8ADEC /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				72BDDCAD234604AD008AEA51 /* CatSuccesViewController.swift in Sources */,
 				72B9E6552345E76E00D1B785 /* DogWelcomeViewController.swift in Sources */,
 				72B9E6392345DA3300D1B785 /* AppDelegate.swift in Sources */,
+				728CE084234731EE00C8ADEC /* Model.swift in Sources */,
 				72B9E6572345E99500D1B785 /* DogFormViewController.swift in Sources */,
 				72B9E65D2345FC4C00D1B785 /* CatWelcomeViewController.swift in Sources */,
 				7280BFEE2346129F00683113 /* DogSuccesViewController.swift in Sources */,
