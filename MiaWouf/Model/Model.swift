@@ -19,5 +19,25 @@ struct Pet {
     var phone: String?
     var gender: Gender
     var race: String?
+}
+
+extension Pet {
+
+    enum Status {
+        case accepted
+        case rejected(error: String)
+    }
+    var status: Status {
+        if name == nil || name == "" {
+            return .rejected(error: "Vous n'avez pas indiqué votre nom !")
+        } else if phone == nil || phone == "" {
+            return .rejected(error: "Veuillez indiquer votre téléphone !")
+        } else if !hasMajority {
+            return .rejected(error: "Les mineurs ne sont pas admis !")
+        } else if race == nil || race == "" {
+            return .rejected(error: "Quel votre race ?")
+        }
+        return .accepted
+    }
 
 }
