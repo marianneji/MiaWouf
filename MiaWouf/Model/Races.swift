@@ -8,7 +8,8 @@
 
 import Foundation
 
-let dogRaces = ["Affenpinscher",
+let dogRaces = ["",
+                "Affenpinscher",
                "Airedale Terrier",
                "Akita",
                "Barbet",
@@ -192,7 +193,8 @@ let dogRaces = ["Affenpinscher",
                "Whippet",
                "Yorkshire Terrier"]
 
-let catRaces = ["Abyssin",
+let catRaces = ["",
+                "Abyssin",
                 "American Bobtail",
                 "American Curl",
                 "American Shorthair",
